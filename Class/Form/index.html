@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<br> 
+	<form name="loginForm" action="action1" style="text-align: center;">
+		Вход на сайт:
+		<br> 
+		Ваш логин: <input type="text" name="login" value="login"></input>
+		<br> 
+		Ваш Пароль: <input type="password" name="password" value="password"></input>
+		<br> 
+		Подтвердите вход: <input type="submit"></input>
+		<br> 
+	</form>
+	<br> <br>  <br> 
+
+	<form name="registrForm" action="action2"  style="text-align: center;">
+		Быстрая регистрация на сайте:
+		<br> 
+		Ваш e-mail: <input type="email" name="email" value="email@gmail.com"></input>
+		<br>
+		Ваш логин: <input type="text" name="login" value="login"></input>
+		<br> 
+		Ваш Пароль: <input type="password" name="password" value="password"></input>
+		<br> 
+		Ваш Телефон: <input type="tel" name="tel" value="+380689083434"></input>
+		<br> 
+		Подтвердите регистрацию: <input type="submit"></input>
+		<br> <br> <br> 
+	</form>
+	<form name="messageForm" action="action3"  style="text-align: center;">
+		Напишите сообщение в службу поддержки:
+		<br>
+		Ваше сообщение:
+		<br>
+		<textarea type="text" name="mess" value="Моё сообщение" rows="5" cols="50"></textarea>
+		<br>
+		Прикрепите снимок экрана: <input type="file" name="file"></input>
+		<br>
+		Очистить ваше сообщение: <input type="reset"></input>
+		<br> 
+		Отправить ваше сообщение: <input type="submit"></input>
+		</form>
+		<br> 
+		<br> 
+	<form name="searchForm" action="action4"  style="text-align: center;">
+		Поиск по сайту: <input type="search" name="search"></input>
+		<br> 
+		Поиск: <input type="submit"></input>
+	</form>
+		<br> <br> <br>
+	<form name="searchForm" action="action4"  style="text-align: center;"> 
+		Выбрать цвет: <input type="color" name="color"></input>
+		<br>
+		Выбрать месяц: <input type="date" name="month"></input>
+		<br><br>
+		Защита от роботов:
+		<br>
+		Выберите правильный ответ 100-100=?: 
+		<select name="fruit" id="fruit"> <!-- size="1" multiple="multiple" -->
+			<option value="10" selected="selected">10</option>
+			<option value="1">1</option>
+			<option value="0">0</option>
+		</select>
+		<br>
+		Ваше авто: 
+		<select  name="auto">
+			<optgroup label="Авто?">
+				<option value="Mers">Мерс</option>
+				<option value="BMW">BMW</option>
+				<option value="Opel">Opel</option>
+			</optgroup>
+			<optgroup label="Мото?">
+				<option value="Yamaha">Yamaha</option>
+				<option value="BMW">BMW</option>
+				<option value="Jawa">Jawa</option>
+			</optgroup>
+		</select>
+		<br>
+		Отправить: <input type="submit"></input>
+	</form>
+</body>
+</html>
